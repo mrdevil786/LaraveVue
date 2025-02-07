@@ -29,6 +29,47 @@ You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you
 
 If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
+## Running the Project
+
+To run this Laravel project, follow these steps:
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/your-username/your-repo-name.git
+   cd your-repo-name
+   ```
+
+2. **Install dependencies**:
+   Make sure you have Composer installed, then run:
+   ```bash
+   composer install
+   ```
+
+3. **Set up your environment**:
+   Copy the `.env.example` file to `.env`:
+   ```bash
+   cp .env.example .env
+   ```
+
+4. **Generate the application key**:
+   ```bash
+   php artisan key:generate
+   ```
+
+5. **Run migrations**:
+   If you have a database set up, run the migrations:
+   ```bash
+   php artisan migrate
+   ```
+
+6. **Start the development server**:
+   ```bash
+   php artisan serve
+   ```
+
+7. **Access the application**:
+   Open your browser and go to `http://localhost:8000`.
+
 ## Laravel Sponsors
 
 We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
